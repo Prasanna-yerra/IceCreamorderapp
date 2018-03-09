@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
         }
         String x=orderSummary.getText().toString();
         orderSummary.setText(x+"\nTotal Price is Rs "+String.valueOf(price)+" /-");
-
+        //changes are changed
     }
 
     private void displayToppings(){
