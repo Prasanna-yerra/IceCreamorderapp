@@ -113,6 +113,7 @@ public class MainActivity extends AppCompatActivity {
     private void displayName(){
         String name=n.getText().toString();
         String t="Name :"+name;
+        //
         orderSummary.setText(t);
     }
 }
